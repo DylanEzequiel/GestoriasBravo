@@ -5,13 +5,13 @@ import { RiCustomerService2Fill } from 'react-icons/ri'
 
 function WhyUs():React.ReactElement {
   return (
-    <div className='min-h-svh'>  
+    <div className='px-10' id='nosotros'>  
         <article className='m-10 mx-14'>
             <div className="flex md:flex-row flex-col bg-white shadow-md rounded-lg overflow-hidden">
           {/* Imagen de la izquierda */}
           <div className="w-full md:w-1/2">
             <img
-              src="" // Cambia esto con la URL de tu imagen
+              src="https://media.istockphoto.com/id/1413761479/es/foto/pareja-madura-que-se-re%C3%BAne-con-asesor-financiero-para-inversiones.jpg?s=612x612&w=0&k=20&c=48v-6w9CkK-uOyD2d5uTChS9EOlCv-bTELZaWw6jCd4=" // Cambia esto con la URL de tu imagen
               alt="Handshake"
               className="w-full h-full object-cover"
             />
