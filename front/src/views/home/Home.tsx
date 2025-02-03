@@ -2,13 +2,13 @@ import React from 'react'
 
 function Home():React.ReactElement {
   return (
-    <article className='flex flex-row justify-center py-44' id='home'>
+    <article className='flex flex-row justify-center py-44 h-svh max-h-[1200px]' id='home'>
         <main className='flex flex-col justify-start gap-3 pl-24 md:w-[75%] self-center'>
             <h2 className='flex flex-col font-semibold text-3xl text-balance text-sky-950'>
-                <span>Gestorías Bravo</span>
+                <span>Gestoría Bravo</span>
                 <span className='text-4xl'>Su socio de confianza en seguros</span></h2>
             <p className='w-[80%] text-sm'>
-            Gestorías Bravo has been providing reliable insurance solutions for over 20 years. Our mission is to protect what matters most to you.
+            Gestoría Bravo has been providing reliable insurance solutions for over 20 years. Our mission is to protect what matters most to you.
             </p>
             <a href='#servicios' className='bg-orange-600 mt-4 px-4 py-1 rounded-sm w-max font-semibold text-white ba'> Servicios</a>
         </main>

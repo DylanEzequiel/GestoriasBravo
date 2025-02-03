@@ -8,10 +8,10 @@ function WhyUs():React.ReactElement {
     <div className='px-10' id='nosotros'>  
         <article className='m-10 mx-14'>
             <div className="flex md:flex-row flex-col bg-white shadow-md rounded-lg overflow-hidden">
-          {/* Imagen de la izquierda */}
+        
           <div className="w-full md:w-1/2">
             <img
-              src="https://media.istockphoto.com/id/1413761479/es/foto/pareja-madura-que-se-re%C3%BAne-con-asesor-financiero-para-inversiones.jpg?s=612x612&w=0&k=20&c=48v-6w9CkK-uOyD2d5uTChS9EOlCv-bTELZaWw6jCd4=" // Cambia esto con la URL de tu imagen
+              src="https://media.istockphoto.com/id/1413761479/es/foto/pareja-madura-que-se-re%C3%BAne-con-asesor-financiero-para-inversiones.jpg?s=612x612&w=0&k=20&c=48v-6w9CkK-uOyD2d5uTChS9EOlCv-bTELZaWw6jCd4="
               alt="Handshake"
               className="w-full h-full object-cover"
             />
@@ -25,42 +25,46 @@ function WhyUs():React.ReactElement {
               Nuestra mision y valores!
             </h3>
             <p className="text-base">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, illo ea. Vero suscipit illo laudantium, provident perferendis cupiditate vel accusantium ipsum quasi sed assumenda ipsa, inventore tempora ratione nihil reiciendis?
+            Estamos Dispuestos a crecer en el mercado asegurador. Queremos brindarte el mejor servicio acorde a tus necesidades, Te vamos a ayuda a cuidar tu patrimonio, a que ahorres dinero y duermas tranquilo/a.
             </p>
             <div className="mt-6">
-              <b>Nombre encargado</b>
-              <p className="text-sm italic">Rol del Titular</p>
+              <b>Leandro Bravo</b>
+              <p className="text-sm italic">Gerente Gral</p>
             </div>
           </div>
         </div>
         </article>
       <article className='flex md:flex-row flex-col justify-center gap-10'>
-      <div className='flex flex-col gap-4 bg-white shadow-md hover:shadow-blue-950 p-2 border-b-2 border-b-blue-700 w-48 hover:-translate-y-1 duration-200 group self-center'>
-        <FaBriefcaseMedical size={40} className='group-hover:text-blue-700 duration-200 self-center'/>
+
+        <div className='group flex flex-col gap-4 bg-white shadow-md hover:shadow-blue-950 p-2 border-b-2 border-b-blue-700 w-48 h-52 hover:-translate-y-1 duration-200 self-center'>
+          <FaBriefcaseMedical size={40} className='group-hover:text-blue-700 duration-200 self-center'/>
           <div>
-            <h3 className='py-3 font-semibold text-xl'>Title</h3>
-            <p className='font-medium text-gray-900 text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit.  </p>
+            <h3 className='py-3 font-semibold text-xl'>Seguridad</h3>
+            <p className='font-medium text-gray-900 text-sm'>Ofrecemos servicios de salud confiables y accesibles para ti y tu familia.</p>
           </div>
         </div>
-        <div className='flex flex-col gap-4 bg-white shadow-md hover:shadow-blue-950 p-2 border-b-2 border-b-blue-700 w-48 hover:-translate-y-1 duration-200 group self-center'>
-        <RiCustomerService2Fill size={40} className='group-hover:text-blue-700 duration-200 self-center'/>
+
+        <div className='group flex flex-col gap-4 bg-white shadow-md hover:shadow-blue-950 p-2 border-b-2 border-b-blue-700 w-48 h-52 hover:-translate-y-1 duration-200 self-center'>
+          <RiCustomerService2Fill size={40} className='group-hover:text-blue-700 duration-200 self-center'/>
           <div>
-            <h3 className='py-3 font-semibold text-xl'>Title</h3>
-            <p className='font-medium text-gray-900 text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit.  </p>
+            <h3 className='py-3 font-semibold text-xl'>Responsabilidad</h3>
+            <p className='font-medium text-gray-900 text-sm'>Atención personalizada 24/7. Nuestro equipo está listo para ayudarte en cualquier momento.</p>
           </div>
         </div>
-        <div className='flex flex-col gap-4 bg-white shadow-md hover:shadow-blue-950 p-2 border-b-2 border-b-blue-700 w-48 hover:-translate-y-1 duration-200 group self-center'>
-        <FaHandsHelping size={40} className='group-hover:text-blue-700 duration-200 self-center'/>
+
+        <div className='group flex flex-col gap-4 bg-white shadow-md hover:shadow-blue-950 p-2 border-b-2 border-b-blue-700 w-48 h-52 hover:-translate-y-1 duration-200 self-center'>
+          <FaHandsHelping size={40} className='group-hover:text-blue-700 duration-200 self-center'/>
           <div>
-            <h3 className='py-3 font-semibold text-xl'>Title</h3>
-            <p className='font-medium text-gray-900 text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit.  </p>
+            <h3 className='py-3 font-semibold text-xl'>Atención</h3>
+            <p className='font-medium text-gray-900 text-sm'>Más de 3 años brindando un servicio seguro y de calidad. Confianza y compromiso en cada paso.</p>
           </div>
         </div>
-        <div className='flex flex-col gap-4 bg-white shadow-md hover:shadow-blue-950 p-2 border-b-2 border-b-blue-700 w-48 hover:-translate-y-1 duration-200 group self-center'>
-        <FaPiggyBank  size={40} className='group-hover:text-blue-700 duration-200 self-center'/>
+
+        <div className='group flex flex-col gap-4 bg-white shadow-md hover:shadow-blue-950 p-2 border-b-2 border-b-blue-700 w-48 h-52 hover:-translate-y-1 duration-200 self-center'>
+          <FaPiggyBank  size={40} className='group-hover:text-blue-700 duration-200 self-center'/>
           <div>
-            <h3 className='py-3 font-semibold text-xl'>Title</h3>
-            <p className='font-medium text-gray-900 text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit.  </p>
+            <h3 className='py-3 font-semibold text-xl'>Confianza</h3>
+            <p className='font-medium text-gray-900 text-sm'>Los mejores precios sin comprometer la calidad. Ahorra con nosotros sin preocupaciones.</p>
           </div>
         </div>
       </article>
