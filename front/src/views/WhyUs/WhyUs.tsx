@@ -5,8 +5,8 @@ import { RiCustomerService2Fill } from 'react-icons/ri'
 
 function WhyUs():React.ReactElement {
   return (
-    <div className='px-10' id='nosotros'>  
-        <article className='m-10 mx-14'>
+    <div className='md:px-10' id='nosotros'>  
+        <article className='m-4 md:m-10 md:mx-14'>
             <div className="flex md:flex-row flex-col bg-white shadow-md rounded-lg overflow-hidden">
         
           <div className="w-full md:w-1/2">
@@ -18,23 +18,23 @@ function WhyUs():React.ReactElement {
           </div>
 
           <div className="bg-blue-700 p-8 w-full md:w-1/2 text-white">
-            <h5 className="mb-2 font-bold text-sm uppercase tracking-widest">
+            <h5 className="mb-2 font-semibold md:font-bold text-sm uppercase tracking-widest">
             Quienes somos?
             </h5>
-            <h3 className="mb-4 font-extrabold text-3xl">
+            <h3 className="mb-4 font-extrabold text-xl md:text-3xl">
               Nuestra mision y valores!
             </h3>
             <p className="text-base">
             Estamos Dispuestos a crecer en el mercado asegurador. Queremos brindarte el mejor servicio acorde a tus necesidades, Te vamos a ayuda a cuidar tu patrimonio, a que ahorres dinero y duermas tranquilo/a.
             </p>
             <div className="mt-6">
-              <b>Leandro Bravo</b>
-              <p className="text-sm italic">Gerente Gral</p>
+              <b>Leandro Adrian Bravo</b>
+              <p className="text-sm italic">Productor Asesor de Seguros</p>
             </div>
           </div>
         </div>
         </article>
-      <article className='flex md:flex-row flex-col justify-center gap-10'>
+      <article className='flex md:flex-row flex-col flex-wrap justify-center gap-4 lg:gap-10'>
 
         <div className='group flex flex-col gap-4 bg-white shadow-md hover:shadow-blue-950 p-2 border-b-2 border-b-blue-700 w-48 h-52 hover:-translate-y-1 duration-200 self-center'>
           <FaBriefcaseMedical size={40} className='group-hover:text-blue-700 duration-200 self-center'/>

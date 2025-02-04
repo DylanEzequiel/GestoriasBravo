@@ -4,9 +4,9 @@ function Home():React.ReactElement {
   return (
     <article className='flex flex-row justify-center py-44 h-svh max-h-[1200px]' id='home'>
         <main className='flex flex-col justify-start gap-3 pl-24 md:w-[75%] self-center'>
-            <h2 className='flex flex-col font-semibold text-3xl text-balance text-sky-950'>
-                <span>Gestoría Bravo</span>
-                <span className='text-4xl'>Su socio de confianza en seguros</span></h2>
+            <h2 className='flex flex-col font-semibold text-2xl text-balance text-sky-950'>
+                <span>Gestoría Leandro Adrian Bravo</span>
+                <span className='font-semibold text-5xl'>Su socio de confianza en seguros</span></h2>
             <p className='w-[80%] text-sm'>
             Gestoría Bravo has been providing reliable insurance solutions for over 20 years. Our mission is to protect what matters most to you.
             </p>

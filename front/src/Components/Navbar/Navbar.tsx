@@ -5,7 +5,7 @@ function Navbar():React.ReactElement {
     <nav className="top-0 z-10 fixed bg-gray-900 backdrop-blur w-svw">
   <div className="flex flex-wrap justify-between items-center mx-auto p-2 max-w-screen-xl">
     <a href="" className="flex items-center space-x-3 rtl:space-x-reverse font-semibold text-white text-xl">
-      Seguro Bravo
+      Gestoria Leandro Adrian
     </a>
     <button data-collapse-toggle="navbar-default" type="button" className="inline-flex justify-center items-center md:hidden hover:bg-gray-100 dark:hover:bg-gray-700 p-2 rounded-lg focus:ring-2 focus:ring-gray-200 dark:focus:ring-gray-600 w-10 h-10 text-gray-500 text-sm dark:text-gray-400 focus:outline-none" aria-controls="navbar-default" aria-expanded="false">
         <span className="sr-only">Abrir Menu</span>
