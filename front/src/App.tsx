@@ -22,7 +22,7 @@ function Loader():React.ReactElement {
   )
 }
 function App() {
-  const [loading,setLoading]=useState<Boolean>(false)
+  const [loading,setLoading]=useState<Boolean>(true)
 
   //To do:
   //Loader al abrir pag 
