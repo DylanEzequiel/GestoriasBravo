@@ -36,35 +36,35 @@ function WhyUs():React.ReactElement {
         </article>
       <article className='flex md:flex-row flex-col flex-wrap justify-center gap-4 lg:gap-10'>
 
-        <div className='group flex flex-col gap-4 bg-white shadow-md hover:shadow-blue-950 p-2 border-b-2 border-b-blue-700 w-48 h-52 hover:-translate-y-1 duration-200 self-center'>
-          <FaBriefcaseMedical size={40} className='group-hover:text-blue-700 duration-200 self-center'/>
+        <div className='group flex flex-col self-center gap-4 bg-white shadow-md hover:shadow-blue-950 p-2 border-b-2 border-b-blue-700 w-48 text-center hover:-translate-y-1 duration-200'>
+          <FaBriefcaseMedical size={40} className='group-hover:text-blue-700 self-center duration-200'/>
           <div>
             <h3 className='py-3 font-semibold text-xl'>Seguridad</h3>
-            <p className='font-medium text-gray-900 text-sm'>Ofrecemos servicios de salud confiables y accesibles para ti y tu familia.</p>
+            {/* <p className='font-medium text-gray-900 text-sm'>Ofrecemos servicios de salud confiables y accesibles para ti y tu familia.</p> */}
           </div>
         </div>
 
-        <div className='group flex flex-col gap-4 bg-white shadow-md hover:shadow-blue-950 p-2 border-b-2 border-b-blue-700 w-48 h-52 hover:-translate-y-1 duration-200 self-center'>
-          <RiCustomerService2Fill size={40} className='group-hover:text-blue-700 duration-200 self-center'/>
+        <div className='group flex flex-col self-center gap-4 bg-white shadow-md hover:shadow-blue-950 p-2 border-b-2 border-b-blue-700 w-48 text-center hover:-translate-y-1 duration-200'>
+          <RiCustomerService2Fill size={40} className='group-hover:text-blue-700 self-center duration-200'/>
           <div>
             <h3 className='py-3 font-semibold text-xl'>Responsabilidad</h3>
-            <p className='font-medium text-gray-900 text-sm'>Atención personalizada 24/7. Nuestro equipo está listo para ayudarte en cualquier momento.</p>
+            {/* <p className='font-medium text-gray-900 text-sm'>Atención personalizada 24/7. Nuestro equipo está listo para ayudarte en cualquier momento.</p> */}
           </div>
         </div>
 
-        <div className='group flex flex-col gap-4 bg-white shadow-md hover:shadow-blue-950 p-2 border-b-2 border-b-blue-700 w-48 h-52 hover:-translate-y-1 duration-200 self-center'>
-          <FaHandsHelping size={40} className='group-hover:text-blue-700 duration-200 self-center'/>
+        <div className='group flex flex-col self-center gap-4 bg-white shadow-md hover:shadow-blue-950 p-2 border-b-2 border-b-blue-700 w-48 text-center hover:-translate-y-1 duration-200'>
+          <FaHandsHelping size={40} className='group-hover:text-blue-700 self-center duration-200'/>
           <div>
             <h3 className='py-3 font-semibold text-xl'>Atención</h3>
-            <p className='font-medium text-gray-900 text-sm'>Más de 3 años brindando un servicio seguro y de calidad. Confianza y compromiso en cada paso.</p>
+            {/* <p className='font-medium text-gray-900 text-sm'>Más de 3 años brindando un servicio seguro y de calidad. Confianza y compromiso en cada paso.</p> */}
           </div>
         </div>
 
-        <div className='group flex flex-col gap-4 bg-white shadow-md hover:shadow-blue-950 p-2 border-b-2 border-b-blue-700 w-48 h-52 hover:-translate-y-1 duration-200 self-center'>
-          <FaPiggyBank  size={40} className='group-hover:text-blue-700 duration-200 self-center'/>
+        <div className='group flex flex-col self-center gap-4 bg-white shadow-md hover:shadow-blue-950 p-2 border-b-2 border-b-blue-700 w-48 text-center hover:-translate-y-1 duration-200'>
+          <FaPiggyBank  size={40} className='group-hover:text-blue-700 self-center duration-200'/>
           <div>
             <h3 className='py-3 font-semibold text-xl'>Confianza</h3>
-            <p className='font-medium text-gray-900 text-sm'>Los mejores precios sin comprometer la calidad. Ahorra con nosotros sin preocupaciones.</p>
+            {/* <p className='font-medium text-gray-900 text-sm'>Los mejores precios sin comprometer la calidad. Ahorra con nosotros sin preocupaciones.</p> */}
           </div>
         </div>
       </article>
