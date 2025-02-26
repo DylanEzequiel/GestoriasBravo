@@ -15,7 +15,7 @@ function Loader():React.ReactElement {
   return (
     <div className='flex flex-col justify-center items-center m-auto'>
         <div className=''>
-          <AiOutlineLoading className='animate-spin size-20' />
+          <AiOutlineLoading className='size-20 animate-spin' />
         </div>
         <h2 className='mt-10 font-semibold text-xl'>Cargando...</h2>
     </div>
@@ -25,7 +25,8 @@ function App() {
   const [loading,setLoading]=useState<Boolean>(true)
 
   //To do:
-  //Loader al abrir pag 
+  //? Listo Loader al abrir pag 
+  //Arreglar imagenes en service cards responsive
   //Animacion de desplazar hacia arriba apenas se enfoca el elemento
   //Optimizar seo
 
