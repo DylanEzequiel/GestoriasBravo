@@ -4,12 +4,12 @@ import {motion} from "framer-motion"
 
 function Services():React.ReactElement {
   return (
-    <div className='flex flex-col justify-around gap-10 mx-10 my-28' id='servicios'>
+    <div className='flex flex-col justify-around gap-10 mx-10 my-28 py-10' id='servicios'>
         <h3 className='font-semibold text-cyan-950 text-2xl text-center'>Conocé acerca de nuestros serviciós</h3>
         <div className='md:gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 overflow-hidden' >
           <motion.div 
-             initial={{ x: "100%", opacity: 0 }}
-             whileInView={{ x: 0, opacity: 1 }}
+             initial={{ y: "100%", opacity: 0 }}
+             whileInView={{ y: 0, opacity: 1 }}
              transition={{ duration: 0.6, ease: "easeOut" }}
              viewport={{ once: true }} 
           >
@@ -19,8 +19,8 @@ function Services():React.ReactElement {
             </a>
           </motion.div>
           <motion.div 
-             initial={{ x: "100%", opacity: 0 }}
-             whileInView={{ x: 0, opacity: 1 }}
+             initial={{ y: "100%", opacity: 0 }}
+             whileInView={{ y: 0, opacity: 1 }}
              transition={{ duration: 0.6, ease: "easeOut" }}
              viewport={{ once: true }} 
           >
@@ -31,8 +31,8 @@ function Services():React.ReactElement {
           </motion.div>
 
           <motion.div 
-             initial={{ x: "100%", opacity: 0 }}
-             whileInView={{ x: 0, opacity: 1 }}
+             initial={{ y: "100%", opacity: 0 }}
+             whileInView={{ y: 0, opacity: 1 }}
              transition={{ duration: 0.6, ease: "easeOut" }}
              viewport={{ once: true }} 
           >
@@ -42,8 +42,8 @@ function Services():React.ReactElement {
           </motion.div>
 
           <motion.div 
-             initial={{ x: "100%", opacity: 0 }}
-             whileInView={{ x: 0, opacity: 1 }}
+             initial={{ y: "100%", opacity: 0 }}
+             whileInView={{ y: 0, opacity: 1 }}
              transition={{ duration: 0.6, ease: "easeOut" }}
              viewport={{ once: true }} 
           >
@@ -53,8 +53,8 @@ function Services():React.ReactElement {
           </motion.div>
 
           <motion.div 
-             initial={{ x: "100%", opacity: 0 }}
-             whileInView={{ x: 0, opacity: 1 }}
+             initial={{ y: "100%", opacity: 0 }}
+             whileInView={{ y: 0, opacity: 1 }}
              transition={{ duration: 0.6, ease: "easeOut" }}
              viewport={{ once: true }} 
           >
@@ -63,8 +63,8 @@ function Services():React.ReactElement {
             </a>
           </motion.div>
           <motion.div 
-             initial={{ x: "100%", opacity: 0 }}
-             whileInView={{ x: 0, opacity: 1 }}
+             initial={{ y: "100%", opacity: 0 }}
+             whileInView={{ y: 0, opacity: 1 }}
              transition={{ duration: 0.6, ease: "easeOut" }}
              viewport={{ once: true }} 
           >

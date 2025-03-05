@@ -3,16 +3,15 @@ import {motion} from "framer-motion"
 
 function Contact():React.ReactElement {
   return (
-    <div className='flex flex-col justify-center px-10 py-4 w-full overflow-hidden' id='contacto'>
+    <motion.div
+      initial={{ y: "50%", opacity: 0 }}
+      whileInView={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.6, ease: "easeOut" }}
+      viewport={{ once: true }} className='flex flex-col justify-center px-10 w-full overflow-hidden' id='contacto'>
         <h2 className='m-auto font-semibold text-sky-950 text-2xl'>
           ¿Donde Encontrarnos?
         </h2> 
-        <motion.div 
-             initial={{ y: "100%", opacity: 0 }}
-             whileInView={{ y: 0, opacity: 1 }}
-             transition={{ duration: 0.6, ease: "easeOut" }}
-             viewport={{ once: true }} 
-          >
+        <div>
             <article className="flex md:flex-row flex-col justify-center shadow-black/50 shadow-lg mt-10 rounded-xl w-full h-svh md:h-[400px] overflow-hidden" >
               <main className="bg-white p-4">
                   <div className='pt-10'>
@@ -36,8 +35,8 @@ function Contact():React.ReactElement {
                   ></iframe>
               </aside>
           </article>
-        </motion.div>
-    </div>
+        </div>
+    </motion.div>
   )
 }
 

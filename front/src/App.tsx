@@ -22,19 +22,14 @@ function Loader():React.ReactElement {
   )
 }
 function App() {
-  const [loading,setLoading]=useState<Boolean>(true)
+  const [loading,setLoading]=useState<boolean>(true)
 
-  //To do:
-  //? Listo Loader al abrir pag 
-  //Arreglar imagenes en service cards responsive
-  //Animacion de desplazar hacia arriba apenas se enfoca el elemento
-  //Optimizar seo
+ 
 
   useEffect(() => {
-    // Simula la carga de contenido (puede ser una llamada a una API)
     setTimeout(() => {
       setLoading(false);
-    }, 500); // Simula 2 segundos de carga
+    }, 500);
   }, []);
 
   return (
@@ -46,7 +41,7 @@ function App() {
       
       </>):(<>
         <Navbar></Navbar>
-        <div className='bg-[#e9ecec] m-auto max-w-7xl'>
+        <div className='m-auto max-w-7xl'>
           <Home/>
           <WhyUs/>
           <Services/>
